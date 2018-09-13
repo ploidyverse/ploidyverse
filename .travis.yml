@@ -1,6 +1,7 @@
 language: r
 cache: packages
 warnings_are_errors: true
+r_check_args: ""
 r:
   - oldrel
   - release
@@ -8,10 +9,6 @@ r:
 
 bioc_packages:
   - BiocInstaller
-  - BiocCheck
-
-after_success:
-  - R CMD BiocCheck --new-package --no-check-vignettes ploidyverse*.tar.gz
 
 notifications:
   email: false
