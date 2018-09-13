@@ -1,11 +1,14 @@
 language: r
 cache: packages
 warnings_are_errors: true
-r_check_args: ""
+
 r:
   - oldrel
   - release
   - devel
+
+env:
+  - NOT_CRAN=true
 
 bioc_packages:
   - BiocInstaller
