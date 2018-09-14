@@ -1,6 +1,6 @@
-# `ploidyverse`
+# ploidyverse
 
-[![Build Status](https://travis-ci.org/ploidyverse/ploidyverse.svg?branch=master)](https://travis-ci.org/ploidyverse/ploidyverse)
+<a href="https://travis-ci.org/ploidyverse/ploidyverse" target="_blank"><img src="https://travis-ci.org/ploidyverse/ploidyverse.svg?branch=master"></a>
 
 Install and manage packages in the ploidyverse.
 
