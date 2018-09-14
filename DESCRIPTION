@@ -17,9 +17,9 @@ Imports: cli (>= 1.0.0),
          rstudioapi (>= 0.7),
          magrittr (>= 1.5),
          fitPoly (>= 3.0.0),
-         polyRAD (>= 0.6),
+         polyRAD (>= 0.5),
          updog (>= 1.0.1),
-         VariantAnnotation (>= 1.26.1)
+         VariantAnnotation (>= 1.25)
 Suggests: knitr,
           testthat
 biocViews:
