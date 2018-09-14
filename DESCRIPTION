@@ -1,25 +1,25 @@
 Package: ploidyverse
-Title: Manage analysis tools for mixed-ploidy genetic data
+Title: Install and manage packages in the ploidyverse
 Version: 0.1.0
 Authors@R: c(
     person("Paul", "Blischak", email = "paul.blischak@gmail.com", role = c("aut", "cre")),
     person("Lindsay", "Clark", email = "lvclark@illinois.edu",    role = c("aut")),
     person("David", "Gerard",  email = "davidgerard@gmail.com",   role = c("aut"))
   )
-Description: The 'ploidyverse' is a group of R packages for the analysis of genetic data
+Description: The ploidyverse is a group of R packages for the analysis of genetic data
   from diploid, polyploid, and mixed-ploidy samples using standardized input and output 
-  formats. The intent of the 'ploidyverse' package is to provide an easy way to install, 
-  manage, and load all of these packages.
+  formats. The intent of the `ploidyverse` package is to provide an easy way to install, 
+  load, and manage all of these packages.
 Depends: R (>= 3.4)
 Imports: cli (>= 1.0.0),
          crayon (>= 1.3.4),
          purrr (>= 0.2.4),
-         rstudioapi,
-         magrittr,
-         fitPoly,
-         polyRAD,
-         updog,
-         VariantAnnotation
+         rstudioapi (>= 0.7),
+         magrittr (>= 1.5),
+         fitPoly (>= 3.0.0),
+         polyRAD (>= 0.6),
+         updog (>= 1.0.1),
+         VariantAnnotation (>= 1.26.1)
 Suggests: knitr,
           testthat
 biocViews:
