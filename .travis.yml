@@ -7,9 +7,6 @@ r:
   - release
   - devel
 
-env:
-  - NOT_CRAN=true
-
 bioc_packages:
   - BiocInstaller
 

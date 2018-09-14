@@ -1,6 +1,6 @@
 #' @keywords internal
 "_PACKAGE"
 
-#' The \code{ploidyverse} package install, loads, and manages as packages
+#' The \code{ploidyverse} package installs, loads, and manages all packages
 #' in the ploidyverse.
 NULL
