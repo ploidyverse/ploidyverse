@@ -2,5 +2,7 @@
 
 S3method(print,ploidyverse_conflicts)
 export(ploidyverse_conflicts)
+export(ploidyverse_deps)
 export(ploidyverse_packages)
+export(ploidyverse_update)
 importFrom(magrittr,"%>%")
