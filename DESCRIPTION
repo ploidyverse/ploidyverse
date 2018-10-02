@@ -3,7 +3,8 @@ Title: Install and manage packages in the ploidyverse
 Version: 0.1.0
 Authors@R: c(
     person("Paul", "Blischak", email = "paul.blischak@gmail.com", role = c("aut", "cre")),
-    person("Lindsay", "Clark", email = "lvclark@illinois.edu",    role = c("aut")),
+    person("Lindsay V.", "Clark", email = "lvclark@illinois.edu",    role = c("aut"),
+           comment = c(ORCID = "0000-0002-3881-9252")),
     person("David", "Gerard",  email = "davidgerard@gmail.com",   role = c("aut"))
   )
 Description: The ploidyverse is a group of R packages for the analysis of genetic data
