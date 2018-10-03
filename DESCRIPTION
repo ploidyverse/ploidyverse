@@ -5,7 +5,8 @@ Authors@R: c(
     person("Paul", "Blischak", email = "paul.blischak@gmail.com", role = c("aut", "cre")),
     person("Lindsay V.", "Clark", email = "lvclark@illinois.edu", role = c("aut"),
            comment = c(ORCID = "0000-0002-3881-9252")),
-    person("David", "Gerard",  email = "davidgerard@gmail.com",   role = c("aut"))
+    person("David", "Gerard",  email = "davidgerard@gmail.com",   role = c("aut")),
+    person("Roeland", "Voorrips", email = "roeland.voorrips@wur.nl", role = c("aut"))
   )
 Description: The ploidyverse is a group of R packages for the analysis of genetic data
   from diploid, polyploid, and mixed-ploidy samples using standardized input and output 
@@ -20,14 +21,15 @@ Imports: cli (>= 1.0.0),
          fitPoly (>= 3.0.0),
          polyRAD (>= 0.5),
          updog (>= 1.0.1),
-         VariantAnnotation (>= 1.24.0)
+         VariantAnnotation (>= 1.24.0),
+         pcaMethods (>= 1.72.0)
 Suggests: dplyr,
           knitr,
           testthat,
           tibble
 biocViews:
 VignetteBuilder: knitr
-License: GPL-3
+License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.0
@@ -35,5 +37,6 @@ NeedsCompilation: no
 Packaged: 2018-09-12 17:37:52 UTC; paulblischak
 Author: Paul Blischak [aut, cre],
         Lindsay Clark [aut],
-        David Gerard  [aut]
+        David Gerard  [aut],
+        Roeland Voorrips [aut]
 Maintainer: Paul Blischak <paul.blischak@gmail.com>

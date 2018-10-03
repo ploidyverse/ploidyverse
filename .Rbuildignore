@@ -3,4 +3,4 @@
 ^\.Rhistory$
 ^\.gitignore$
 ^\.travis\.yml$
-^LICENSE$
+^.git$

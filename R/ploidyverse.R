@@ -1,6 +1,10 @@
 #' @keywords internal
 "_PACKAGE"
 
-#' The \code{ploidyverse} package installs, loads, and manages all packages
-#' in the ploidyverse.
+# Need to importFrom to not have R CMD check note
+#' @importFrom VariantAnnotation samples
+#' @importFrom fitPoly fitOneMarker
+#' @importFrom pcaMethods pca
+#' @importFrom updog flexdog
+#' @importFrom polyRAD readHMC
 NULL

@@ -16,8 +16,9 @@ The ploidyverse is a group of R packages for the analysis of genetic data
 
 Authors:
 \itemize{
-  \item Lindsay Clark \email{lvclark@illinois.edu}
+  \item Lindsay V. Clark \email{lvclark@illinois.edu} (0000-0002-3881-9252)
   \item David Gerard \email{davidgerard@gmail.com}
+  \item Roeland Voorrips \email{roeland.voorrips@wur.nl}
 }
 
 }
