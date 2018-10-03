@@ -22,7 +22,7 @@ Imports: cli (>= 1.0.0),
          polyRAD (>= 0.5),
          updog (>= 1.0.1),
          VariantAnnotation (>= 1.24.0),
-         pcaMethods (>= 1.72.0)
+         pcaMethods (>= 1.70.0)
 Suggests: dplyr,
           knitr,
           testthat,
